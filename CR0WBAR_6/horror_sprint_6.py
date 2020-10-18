@@ -52,6 +52,7 @@ class GameView(arcade.View):
         self.player_sprite.texture_change_frames = 10
         self.player_sprite.textures = []
 
+        #getting error for this no clue why
         for i in range (12):
             self.player_sprite.textures.append(arcade.load_texture("animations/man_idle_calm/spritesheet.png", x = i*258, y = 0, width = 256, height = 256, hit_box_algorithm="Simple"))
 
